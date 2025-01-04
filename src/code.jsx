@@ -88,105 +88,532 @@ const MobileApp = () => {
     ];
 
     const inspirationalQuotes = [
-        {
-            "text":"Time is the coin of your life. It is the only coin you have, and only you can determine how it will be spent. Be careful lest you let other people spend it for you.",
-            "date":"27/10/2024",
-            "author":"Dr. Ayo OGUNSAN",
-            "source":"",
-            "category":"personal"
-        },
-        {
-            "text":"Love yourself enough to set boundaries. Your time and energy are precious, you get to choose how you use it. You teach people how to treat you by deciding what you will and won't accept. Most people are far too much occupied with themselves to be malicious. You are only one choice away from changing your world, choose consciously and wisely. Trust yourself above else. Calm heart and lit soul. Positive thoughts always. The Lord will guide you. Best of the week",
-            "date":"14/10/2024",
-            "author":"Dr. Ayo OGUNSAN",
-            "source":"",
-            "category":"personal"
-        },
-        {
-            "text":"I discipline my body and keep it under control.",
-            "date":"15/10/2024",
-            "author":"Dr. Ayo OGUNSAN",
-            "source":"1 Corinthians 9:27",
-            "category":"spiritual"
-        },
-        {
-            "text":"While God's grace (not our efforts) undergirds all we do, our spiritual life deserves rigorous discipline. As God helps us discipline our mind, heart, and body, we learn to keep our attention fixed on Him, even amid trials or distractions.",
-            "date":"15/10/2024",
-            "author":"Dr. Ayo OGUNSAN",
-            "source":"",
-            "category":"spiritual"
-        },
-        {
-            "text":"Being thankful for the ordinary things will help you realize that they are, in fact, extraordinary. In order to move on, you must understand why you felt what you did and why you no longer need to feel it. Sometimes, there is no next time, no time-outs, and no second chances; sometimes, it's now or never. When your only tool is a hammer, all problems start looking like nails. Old ways won't open new doors. The Lord will restate the truth and make you happy. Nice day.",
-            "date":"16/10/2024",
-            "author":"Dr. Ayo OGUNSAN",
-            "source":"",
-            "category":"personal"
-        },
-        {
-            "text":"You reap fruit from the same kind of seed you've been sowing, you can't talk negative and expect to live positive. Confidence is key to make one believe in self conviction and serves to grow and make one strong. You don't see things the way they are, you see them the way they are. Only those who dare to fail greatly can ever achieve greatly. Live a little more. Your unique talents are just what you need for tomorrow. The Lord will direct you. Good morning",
-            "date":"17/10/2024",
-            "author":"Dr. Ayo OGUNSAN",
-            "source":"",
-            "category":"personal"
-        },
-        {
-            "text":"New beginnings require a new mindset, get your mind right so you don't fall back into the old patterns. The need for less often results in a life of more. The most important thing to do if you find yourself in a hole is to stop digging. In your life, you've lived, you've loved, you've lost, you've missed, you've hurt, you've trusted and you've made mistakes. But most of all, you have learned. Your passion is your pay check. The Lord will speak to reassure you. Nice day",
-            "date":"22/10/2024",
-            "author":"Dr. Ayo OGUNSAN",
-            "source":"",
-            "category":"personal"
-        },
-        {
-            "text":"I will ask the Father, and he will give you another advocate to help you and be with you forever.",
-            "date":"23/10/2024",
-            "author":"Dr. Ayo OGUNSAN",
-            "source":"John 14:16",
-            "category":"spiritual"
-        },
-        {
-            "text":"In this life, everyone—including believers in Christ—will experience the turbulence of anxiety, fear, and grief. But He's promised that, in His absence, the Holy Spirit is present to comfort us.",
-            "date":"23/10/2024",
-            "author":"Dr. Ayo OGUNSAN",
-            "source":"",
-            "category":"spiritual"
-        },
-        {
-            "text":"Dear Jesus, thank You for the Spirit's comfort and counsel.",
-            "date":"23/10/2024",
-            "author":"Dr. Ayo OGUNSAN",
-            "source":"",
-            "category":"spiritual"
-        },
-        {
-            "text":"It is very important that you do not try to run away from your painful feelings. You can recognize, accept, embrace, and look deeply. To uncover your true potential, you must first find your own limits, and then you have the courage to blow past them. Dream to manifest yourselves into leaders with great vision. Every day is a new day, and you'II never be able to find happiness if you don't move on. Don't settle for easy. The Lord will reveal more to you. Enjoy the rest of your day.",
-            "date":"23/10/2024",
-            "author":"Dr. Ayo OGUNSAN",
-            "source":"",
-            "category":"personal"
-        },
-        {
-            "text":"Happiness and contentment can come from accepting that not everyone has the same exact moral compass. What separates winners from those who are struggling is that winners are willing to do the work that others avoid. Successful people seek knowledge, not gossip, as you're on the verge of something amazing. The winds of change are unavoidable, but if you bend, you won't break. Grind hard and make it happen. The Lord will guide you. Good night",
-            "date":"24/10/2024",
-            "author":"Dr. Ayo OGUNSAN",
-            "source":"",
-            "category":"personal"
-        },
-        {
-            "text":"Father, I look forward to being with You in Your heavenly home. Thank You for the promise and strength this hope gives me each day.",
-            "date":"26/10/2024",
-            "author":"Dr. Ayo OGUNSAN",
-            "source":"",
-            "category":"spiritual"
-        },
-        {
-            "text":"A person tied to the world of sorrows can return to nature for inspiration. Nature provides solace to troubled hearts. Anyone can give you attention and compliments, but someone who loves you will give you that plus respect, honesty, trust, and loyalty. A hero is no braver than an ordinary man, but he is brave five minutes longer. Just because you are struggling doesn't mean you're failing. Never give up on your dreams. The Lord will support you. Good morning",
-            "date":"26/10/2024",
-            "author":"Dr. Ayo OGUNSAN",
-            "source":"",
-            "category":"personal"
-        }
-    ];
+            {
+                "text": "Have faith in yourself, in your courage, and strength. You're a fighter, and you've got this. To acquire money requires valour, to keep money requires prudence, and to spend money well is an art. You don't need to forget what hurt you. Just remember it taught you a valuable lesson. If you have time to whine, then you have time to find a solution. Don't compare yourself with someone else. You only live once. Be faithful. The Lord will review your plans and make you happy. Blessed Sunday",
+                "date": "27/10/2024",
+                "author": "Dr. Ayo OGUNSAN",
+                "source": "",
+                "category": "personal",
+                "subcategories": ["motivation", "inspiration"]
+            },
+            {
+                "text": "Don't feel bad that your kid doesn't like you today because you said no. Your job isn't to be liked. Your job is to raise a decent, kind, responsible human.",
+                "date": "27/10/2024",
+                "author": "Dr. Ayo OGUNSAN",
+                "source": "",
+                "category": "personal",
+                "subcategories": ["leadership", "parenting"]
+            },
+            {
+                "text": "Life becomes fulfilling when you find joy in giving more than receiving.",
+                "date": "27/10/2024",
+                "author": "Dr. Ayo OGUNSAN",
+                "source": "",
+                "category": "personal",
+                "subcategories": ["inspiration", "motivation"]
+            },
+            {
+                "text": "Dear God, please set me free from bitterness and anger.",
+                "date": "27/10/2024",
+                "author": "Dr. Ayo OGUNSAN",
+                "source": "",
+                "category": "faith",
+                "subcategories": ["prayer", "personal growth"]
+            },
+            {
+                "text": "Permanence, perseverance, and persistence in spite of all obstacles, discouragement, and impossibilities: It is this that in all things distinguished the strong soul from the weak. It's up to you today to start making healthy choices. Not choices that are just healthy for your body, but healthy for your mind and soul. Don't forget to take notice of how far you have come. Get a new perspective. People change. Life goes on. The Lord will guide you. Nice day",
+                "date": "28/10/2024",
+                "author": "Dr. Ayo OGUNSAN",
+                "source": "",
+                "category": "motivation",
+                "subcategories": ["personal development", "inspiration"]
+            },
+            {
+                "text": "In every situation, by prayer and petition, with thanksgiving, present your requests to God. Philippians 4:6",
+                "date": "28/10/2024",
+                "author": "Dr. Ayo OGUNSAN",
+                "source": "Philippians 4:6",
+                "category": "faith",
+                "subcategories": ["bible verse", "prayer"]
+            },
+
+
+            {
+                "text": "Heavenly Father, thank You that I can pray to You at any time.",
+                "date": "28/10/2024",
+                "author": "Dr. Ayo OGUNSAN",
+                "source": "",
+                "category": "faith"
+            },
+            {
+                "text": "Our days can seem dark, and the fulfilment of God's promises hidden. But as we cling to Him by faith, one day all His `great and precious promises` will be fulfilled (2 Peter 1:4). A beautiful new day awaits.",
+                "date": "29/10/2024",
+                "author": "Dr. Ayo OGUNSAN",
+                "source": "2 Peter 1:4",
+                "category": "faith"
+            },
+            {
+                "text": "Stay positive. Forgive others. Invest in yourself. Trust your instincts. Lead with an open heart. Don't let others ruin your day. Do things that bring you joy. Be of service to humanity. Find your soul tribe and love yourself. Be grateful for all you have while you pursue all you want. Failure defeats losers but inspires winners. Look back at how far you've come and be brave enough to go after what you want. The Lord will instill you with his grace and glory. Nice day",
+                "date": "30/10/2024",
+                "author": "Dr. Ayo OGUNSAN",
+                "source": "",
+                "category": "motivation"
+            },
+            {
+                "text": "To exist is to change, to change is to mature, to mature is to go on creating oneself endlessly. Experience is the name so many give to their mistakes. Do all things with kindness, especially to those who hurt you. Don't get mad, Don't get even, Do better, much better, rise above and become so engulfed in your own success that you forget it ever happened.Life is short, the world is wide, the sooner you start fulfilling your purpose the better. The Lord will support you. Nice day",
+                "date": "31/10/2024",
+                "author": "Dr. Ayo OGUNSAN",
+                "source": "",
+                "category": "personal"
+            },
+            {
+                "text": "Being thankful for the ordinary things will help you realize that they are, in fact, extraordinary. There are no shortcuts to living your greatest life and becoming your best self. If they walk away, let them go. If they don't value you enough to work through the hard times, they don't deserve all the good times. The best thing you can do is to just breathe and be always. Your shining moment is already on its way. The Lord will support you. Happy new month.",
+                "date": "01/11/2024",
+                "author": "Dr. Ayo OGUNSAN",
+                "source": "",
+                "category": "inspiration"
+            },
+            {
+                "text": "Whoever wants to become great among you must be your servant. Matthew 20:26",
+                "date": "02/11/2024",
+                "author": "Dr. Ayo OGUNSAN",
+                "source": "Matthew 20:26",
+                "category": "leadership"
+            },
+
+
+            {
+                "text": "You've come to believe that all your past failure and frustration were actually laying the foundation for the understanding that has created the new level of living you now enjoy. A sense of blessedness comes from a change of heart, not from more blessings. When you're good, you tell them. When you're great, they tell you. And you can't be great until you're better than good. Radiate the energy you want to receive. The Lord will honour you. Nice day.",
+                "date": "02/11/2024",
+                "author": "Dr. Ayo OGUNSAN",
+                "source": "",
+                "category": "motivation"
+            },
+            {
+                "text": "You will keep in perfect peace those whose minds are steadfast, because they trust in you. Isaiah 26:3",
+                "date": "02/11/2024",
+                "author": "Dr. Ayo OGUNSAN",
+                "source": "Isaiah 26:3",
+                "category": "faith"
+            },
+            {
+                "text": "As the Lord brings your desires towards you, sometimes you must take the path it lays out for you so that you can be in the right place to receive it. Find other people who are going up the mountain and help each other to climb. Failures happen, and the setbacks happen, keep going because eventually victories happen, and accomplishments happen. Overthinking makes you feel like you are stuck. Work harder, work smarter. The Lord will reward you. Nice day",
+                "date": "27/11/2024",
+                "author": "Dr. Ayo OGUNSAN",
+                "source": "",
+                "category": "motivation"
+            },
+            {
+                "text": "Your beliefs become your thoughts, your thoughts become your words, your words become your actions, your actions become your habits, your habits become your values, and your values become your destiny. You will never have this day again, so make it count! Know who you are and know it's enough. Hope is not found in the mind. It comes from the heart and is fueled by the soul. Some steps need to be taken alone. The Lord will support you. Nice day",
+                "date": "28/11/2024",
+                "author": "Dr. Ayo OGUNSAN",
+                "source": "",
+                "category": "personal"
+            },
+            {
+                "text": "Collaboration and cooperation will beat competition every time. Think abundantly, Speak authentically, Serve willingly, You have enough and you are enough. We all have dreams, but in order to make dreams come into reality, it takes an awful lot of determination, dedication, self-discipline, and effort. Like the morning sun, you too shall rise and continue to shine. Trust your vibes; energy doesn't lie. The Lord will help you. Nice day",
+                "date": "21/11/2024",
+                "author": "Dr. Ayo OGUNSAN",
+                "source": "",
+                "category": "leadership"
+            },
+            {
+                "text": "Your purpose in life is to find your purpose and give your whole heart and soul to it. Happiness doesn't just happen, it's a choice you make at every moment. Stop believing in your excuses and start believing in your ability to get it done. A right is not what someone gives you; it's what no one can take from you. Sometimes people come into your life just to teach you how to let go. Everything is hard before it is easy. The Lord's Mercies will endure in your life. Nice weekend.",
+                "date": "22/11/2024",
+                "author": "Dr. Ayo OGUNSAN",
+                "source": "",
+                "category": "inspiration"
+            },
+            {
+                "text": "Faithful God, thank You for Your promise to remain with me no matter what I face, and for the joyful hope of living with You forever.",
+                "date": "23/11/2024",
+                "author": "Dr. Ayo OGUNSAN",
+                "source": "",
+                "category": "faith"
+            },
+            {
+                "text": "Your weaknesses don't deserve your attention; your strengths do. Things always work out, even when you don't have them figured out, as you start to walk out on the way, the way appears. Never put off being happy, enjoy your life right now, just as it is. Never love something so much that you can't let go of it. Pain doesn't just show up in your lives for no reason. It's a sign that something in your life needs to change. The Lord will establish you. Nice day",
+                "date": "23/11/2024",
+                "author": "Dr. Ayo OGUNSAN",
+                "source": "",
+                "category": "personal"
+            },
+            {
+                "text": "He has sent me to . . . proclaim freedom for the captives, and release from darkness for the prisoners. Isaiah 61:1",
+                "date": "24/11/2024",
+                "author": "Dr. Ayo OGUNSAN",
+                "source": "Isaiah 61:1",
+                "category": "faith"
+            },
+            {
+                "text": "All your strengths must come from within because no external source can provide it. Give yourself permission to step away from anything or anyone that makes you feel stressed. Glory in your small dreams, because inside them, something bigger may emerge. Sometimes, you have to lose yourself to really find yourself. No one can take away how far you've come. Earn with your mind, not your time. The Lord will inspire you. Blessed Sunday",
+                "date": "24/11/2024",
+                "author": "Dr. Ayo OGUNSAN",
+                "source": "",
+                "category": "motivation"
+            },
+            {
+                "text": "Because God is mighty and because He loves us, we too can still ourselves before Him, trusting that He will be our ever-present help in times of trouble.",
+                "date": "17/11/2024",
+                "author": "Dr. Ayo OGUNSAN",
+                "source": "",
+                "category": "faith"
+            },
+            {
+                "text": "Enter his gates with thanksgiving and his courts with praise; give thanks to God and praise his name. Psalm 100:4",
+                "date": "25/11/2024",
+                "author": "Dr. Ayo OGUNSAN",
+                "source": "Psalm 100:4",
+                "category": "faith"
+            },
+            {
+                "text": "The greater the level of calmness of your mind, the greater your peace of mind, the greater your ability to enjoy a happy and joyful life. Life has a way of making you repeat the same patterns until you choose to break the cycle. If you can have faith in yourself, you can achieve anything. Make it a rule of life never to regret and never to look back. Simplicity is the ultimate reasoning. Be patient with yourself! The Lord will restore unto you the years that the locust hath eaten. Nice week.",
+                "date": "25/11/2024",
+                "author": "Dr. Ayo OGUNSAN",
+                "source": "",
+                "category": "motivation"
+            },
+            {
+                "text": "Embrace uncertainty. Some of the most beautiful chapters in our lives won't have a title until much later. In the absence of clearly defined goals, you become strangely loyal to performing daily acts of trivia. You will never always be motivated, you have to learn to be disciplined. Discipline is the decision. You are allowed to define success for yourself. Stay strong, even the darkest nights give way to beautiful sunrises. The Lord will guide you. Good morning",
+                "date": "26/11/2024",
+                "author": "Dr. Ayo OGUNSAN",
+                "source": "",
+                "category": "inspiration"
+            },
+            {
+                "text": "As the Lord brings your desires towards you, sometimes you must take the path it lays out for you so that you can be in the right place to receive it. Find other people who are going up the mountain and help each other to climb. Failures happen, and the setbacks happen, keep going because eventually victories happen, and accomplishments happen. Overthinking makes you feel like you are stuck. Work harder, work smarter. The Lord will reward you. Nice day",
+                "date": "27/11/2024",
+                "author": "Dr. Ayo OGUNSAN",
+                "source": "",
+                "category": "motivation"
+            },
+            {
+                "text": "Your beliefs become your thoughts, your thoughts become your words, your words become your actions, your actions become your habits, your habits become your values, and your values become your destiny. You will never have this day again, so make it count! Know who you are and know it's enough. Hope is not found in the mind. It comes from the heart and is fueled by the soul. Some steps need to be taken alone. The Lord will support you. Nice day",
+                "date": "28/11/2024",
+                "author": "Dr. Ayo OGUNSAN",
+                "source": "",
+                "category": "personal"
+            },
+            {
+                "text": "Dear God, please help me give thanks even when life is hard",
+                "date": "30/11/2024",
+                "author": "Dr. Ayo OGUNSAN",
+                "source": "",
+                "category": "faith"
+            },
+            {
+                "text": "As the apostle Paul wrote, may God help us `give thanks in all circumstances` (1 Thessalonians 5:18). Whether we're facing a crisis or have just come through one, a grateful response honours Him and helps keep our faith afloat. Daniel prayed, giving thanks to his God, just as he had done before. Daniel 6:10",
+                "date": "30/11/2024",
+                "author": "Dr. Ayo OGUNSAN",
+                "source": "1 Thessalonians 5:18, Daniel 6:10",
+                "category": "faith"
+            },
+            {
+                "text": "Remember how far you've come, not just how far you have to go. You are not where you want to be, but neither are you where you used to be. Adversity will try to knock you off your square. Be a circle; spin and move. Love your partner harder than their insecurities. Love them deeper than their deepest fears, and prove to them that love conquers all. You rarely win, but sometimes you do. Mountains are moveable! The Lord will manifest his glory in your life. Nice day",
+                "date": "30/11/2024",
+                "author": "Dr. Ayo OGUNSAN",
+                "source": "",
+                "category": "inspiration"
+            },
+            {
+                "text": "Lord God, I confess I don't always understand what is going on, but I trust that the way You are building my character will enable me to know, love and serve You in a far deeper way.",
+                "date": "01/12/2024",
+                "author": "Dr. Ayo OGUNSAN",
+                "source": "",
+                "category": "faith"
+            },
+            {
+                "text": "Inaction breeds doubt and fear. Action breeds confidence and courage. If you want to conquer fear, do not sit home and think about it. Go out and get busy. Remind yourself that even the little steps will carry you to the finish line. No task is too small when it comes to reaching for your dreams. If it's in your mind, it's worth taking the risk. Respect your haters. They're the ones who think you're better than them. The Lord will guide you. Happy new month.",
+                "date": "01/12/2024",
+                "author": "Dr. Ayo OGUNSAN",
+                "source": "",
+                "category": "motivation"
+            },
+
+            {
+                "text": "Barnabas encouraged them all to remain true to the Lord with all their hearts. Acts 11:23",
+                "date": "02/12/2024",
+                "author": "Dr. Ayo OGUNSAN",
+                "source": "Acts 11:23",
+                "category": "faith"
+            },
+            {
+                "text": "Dear God, please help me to be an encouragement to someone today.",
+                "date": "02/12/2024",
+                "author": "Dr. Ayo OGUNSAN",
+                "source": "",
+                "category": "faith"
+            },
+            {
+                "text": "Fill your life with lots of experiences not lots of things. Have incredible stories to tell not incredible clutter in your closets. You are allowed to cut off anyone who is unhealthy for your inner peace. Remember, your words can burn forests down or plant beautiful gardens. When you concern yourself with others, you naturally develop a sense of confidence.Only thing certain is uncertainty! Hope is passion for what is possible. The Lord will speak to reassure you. Nice week",
+                "date": "02/12/2024",
+                "author": "Dr. Ayo OGUNSAN",
+                "source": "",
+                "category": "personal"
+            },
+            {
+                "text": "Dear God, You know me best and love me most. I'm so grateful for Your hand on my life.",
+                "date": "03/12/2024",
+                "author": "Dr. Ayo OGUNSAN",
+                "source": "",
+                "category": "faith"
+            },
+            {
+                "text": "You don't develop courage by being happy every day. You develop it by surviving difficult times and challenging adversity. If the plan doesn't work, change the plan, but never the goal. Today's struggles lead to tomorrow's success. Do the best you can do today, then do better tomorrow. You become what you think about all day long. Be kind, even though you've had a rough day. There is no gift like the present. Be firm! The Lord will support you. Nice day",
+                "date": "03/12/2024",
+                "author": "Dr. Ayo OGUNSAN",
+                "source": "",
+                "category": "motivation"
+            },
+            {
+                "text": "Loving God, thank You for sending Your Son into this world to clean up our mess.",
+                "date": "04/12/2024",
+                "author": "Dr. Ayo OGUNSAN",
+                "source": "",
+                "category": "faith"
+            },
+            {
+                "text": "The secret to doing anything is believing that you can do it. Anything that you believe you can do strong enough, you can do. Anything, as long as you believe. Having a positive mental attitude is asking how something can be done rather than saying it can't be done. To help others takes courage and inner strength. Giving yourself the time you need to heal, that's a form of self-love. You have always been enough! The Lord will protect you. Nice week",
+                "date": "04/12/2024",
+                "author": "Dr. Ayo OGUNSAN",
+                "source": "",
+                "category": "inspiration"
+            },
+            {
+                "text": "Heavenly Father, please guide me to do Your will.",
+                "date": "05/12/2024",
+                "author": "Dr. Ayo OGUNSAN",
+                "source": "",
+                "category": "faith"
+            },
+            {
+                "text": "Don't be so hard on yourself. Dealing with life, everyday stuff, and emotions can be tough. You're a brave soul on a mission. You must make your own living and own opportunity. Don't sit down and wait for the opportunities to come. Get up and make them. Breaking free from the imprisonment of old habits is one of the most beautiful ways to grow. It is more difficult to stay on top than to get there. Stop doubting yourself. The Lord will speak to reassure you. Nice day",
+                "date": "05/12/2024",
+                "author": "Dr. Ayo OGUNSAN",
+                "source": "",
+                "category": "motivation"
+            },
+            {
+                "text": "Set peace of mind as your highest goal, and organize your life and around it. When you close your mind to temptations and distractions, you can achieve anything. Anger makes you smaller, while forgiveness forces you to grow beyond what you were. Look inward to dig out old ways of thinking that you are holding back. Nothing external to you has any power over you. Believe in yourself, even when no one else does. The Lord will guide you. Beautiful weekend ahead.",
+                "date": "06/12/2024",
+                "author": "Dr. Ayo OGUNSAN",
+                "source": "",
+                "category": "personal"
+            },
+
+            {
+                "text": "God is faithful; he will not let you be tempted beyond what you can bear. 1 Corinthians 10:13",
+                "date": "07/12/2024",
+                "author": "Dr. Ayo OGUNSAN",
+                "source": "1 Corinthians 10:13",
+                "category": "faith"
+            },
+            {
+                "text": "Father, You know my weaknesses. Please give me the strength to resist temptation and to walk with You, in Your holy and life-giving ways",
+                "date": "07/12/2024",
+                "author": "Dr. Ayo OGUNSAN",
+                "source": "",
+                "category": "faith"
+            },
+            {
+                "text": "Good things come to those who believe, better things come to those who are patient and the best things come to those who don't give up. The clearer your thoughts, the clearer your reality. Look inside of yourself, and you will find everything you have been searching for. When it is dark, you can see the stars. Never neglect an opportunity for self improvement. There are far, far, better things ahead than anything you leave behind. The Lord will take very good care of you. Nice weekend",
+                "date": "07/12/2024",
+                "author": "Dr. Ayo OGUNSAN",
+                "source": "",
+                "category": "motivation"
+            },
+            {
+                "text": "Saving Jesus, thank You for dying on the cross and rising to new life. I place my trust in You.",
+                "date": "08/12/2024",
+                "author": "Dr. Ayo OGUNSAN",
+                "source": "",
+                "category": "faith"
+            },
+            {
+                "text": "Everyone wants to live on top of the mountain, but all the happiness and growth occurs while you're climbing it. Look inside of yourself, and you will find everything you have been searching for. Never underestimate the power of an unlimited being - YOU. The harder you work today brings you that much closer to your goal tomorrow. Your grateful heart can attract miracles. Be determined and find your motivation! The Lord will inspire you. Blessed Sunday",
+                "date": "08/12/2024",
+                "author": "Dr. Ayo OGUNSAN",
+                "source": "",
+                "category": "inspiration"
+            },
+            {
+                "text": "When you pass through the waters, I will be with you. Isaiah 43:2",
+                "date": "09/12/2024",
+                "author": "Dr. Ayo OGUNSAN",
+                "source": "Isaiah 43:2",
+                "category": "faith"
+            },
+            {
+                "text": "Dear God, I thank You today that the Scriptures are full of promises, and that I can be encouraged even by one verse at just the right time.",
+                "date": "09/12/2024",
+                "author": "Dr. Ayo OGUNSAN",
+                "source": "",
+                "category": "faith"
+            },
+            {
+                "text": "You have the power to create the life of your dreams. Once you give up searching for approval, you often find it easier to earn respect. Dream bigger, work harder, It's all in your power. Don't stop dreaming just because you had a nightmare. It's better to do one thing at a time and give your full concentration. People won't have time for you if you are always angry or complaining. Start before you are ready. The Lord will instill grace and strength in you. Nice week",
+                "date": "09/12/2024",
+                "author": "Dr. Ayo OGUNSAN",
+                "source": "",
+                "category": "motivation"
+            },
+            {
+                "text": "Dear God, You know me best and love me most. I'm so grateful for Your hand on my life.",
+                "date": "03/12/2024",
+                "author": "Dr. Ayo OGUNSAN",
+                "source": "",
+                "category": "faith"
+            },
+            {
+                "text": "Loving God, please remind me of who You are and help me to keep praying, no matter what.",
+                "date": "14/11/2024",
+                "author": "Dr. Ayo OGUNSAN",
+                "source": "",
+                "category": "faith"
+            },
+
+            {
+                "text": "One of the greatest sources of insecurity and frustration is our tendency to try and change things you don't have control of. Share your gifts and talents unapologetically, the world needs them. One foot forward, one day at a time. The Lord will guide you. Good morning",
+                "date": "09/11/2024",
+                "author": "Dr. Ayo OGUNSAN",
+                "source": "",
+                "category": "motivation"
+            },
+            {
+                "text": "Romans 6 vs 18 Being then made free from sin, ye became the servants of righteousness.",
+                "date": "09/11/2024",
+                "author": "Dr. Ayo OGUNSAN",
+                "source": "Romans 6:18",
+                "category": "faith"
+            },
+            {
+                "text": "Dear God, thank You for seeing me. I know You're with me even during my toughest times.",
+                "date": "10/11/2024",
+                "author": "Dr. Ayo OGUNSAN",
+                "source": "",
+                "category": "faith"
+            },
+            {
+                "text": "You already have all the power you need within you to achieve everything you could ever dream of. Tap into it and watch your life change. Obstacles are challenges for winners and excuses for losers. Life is about making an impact, not making an income. Follow your soul! The Lord will speak to reassure you. Blessed Sunday",
+                "date": "10/11/2024",
+                "author": "Dr. Ayo OGUNSAN",
+                "source": "",
+                "category": "motivation"
+            },
+            {
+                "text": "Don't let fear hold you back from your dreams. Take a chance, take a risk,and believe in yourself. The greatest achievements come from taking bold action. Never let someone who contributes so little to a relationship control so much of it. When you start to wonder whether you can trust someone or not, that is when you already know you don't. If you focus on your suffering, you will suffer. Focus on the good, find remedy. The Lord will guide you. Have a great week.",
+                "date": "11/11/2024",
+                "author": "Dr. Ayo OGUNSAN",
+                "source": "",
+                "category": "personal"
+            },
+            {
+                "text": "Whatever is worrying you right now, forget about it. Take a deep breath, stay positive, know that things will get better. Peace can become a lens through which you see the world. Be it. Live it. Radiate it out. Peace is an inside job. Hard work beats talent every time. Take care of yourself first, You can't take care of others unless you're well too.The hardest walk is walking alone, but it's also the walk that makes you stronger. The Lord will lift you up. Nice day",
+                "date": "12/11/2024",
+                "author": "Dr. Ayo OGUNSAN",
+                "source": "",
+                "category": "inspiration"
+            },
+            {
+                "text": "Those who are kind benefit themselves. Proverbs 11:17",
+                "date": "13/11/2024",
+                "author": "Dr. Ayo OGUNSAN",
+                "source": "Proverbs 11:17",
+                "category": "faith"
+            },
+            {
+                "text": "Kindness and generosity are part of God's character, and He loves to see them expressed in our own hearts and lives. Solomon summed up the matter well: `Whoever refreshes others will be refreshed` (Proverbs 11 v. 25).",
+                "date": "13/11/2024",
+                "author": "Dr. Ayo OGUNSAN",
+                "source": "Proverbs 11:25",
+                "category": "faith"
+            },
+            {
+                "text": "Dear God, I love Your kindness. Please help me to become more like You so that I may share Your love in practical ways.",
+                "date": "13/11/2024",
+                "author": "Dr. Ayo OGUNSAN",
+                "source": "",
+                "category": "faith"
+            },
+            {
+                "text": "On the days you feel most discouraged, listen to your heartbeat. It'II remind you of who you are and what your purpose.You were given the gift of life; now it's up to you to figure out your gift in life. It's not the years in your life that count, It's the life in your years. Cherish the people who stick by your side, even when you push them away.Some of the best moments in your life will be the ones you never expected. The Lord will explain better to you. Nice day",
+                "date": "13/11/2024",
+                "author": "Dr. Ayo OGUNSAN",
+                "source": "",
+                "category": "personal"
+            },
+            {
+                "text": "Loving God, please remind me of who You are and help me to keep praying, no matter what.",
+                "date": "14/11/2024",
+                "author": "Dr. Ayo OGUNSAN",
+                "source": "",
+                "category": "faith"
+            },
+            {
+                "text": "Don't give the church to young people; give it rather to converted young people.",
+                "date": "14/11/2024",
+                "author": "Dr. Ayo OGUNSAN",
+                "source": "",
+                "category": "leadership"
+            },
+            {
+                "text": "Don't lower standards for young people; challenge them to rise to the standards",
+                "date": "14/11/2024",
+                "author": "Dr. Ayo OGUNSAN",
+                "source": "",
+                "category": "leadership"
+            },
+            {
+                "text": "A foretaste of what to come on the 7th of December",
+                "date": "14/11/2024",
+                "author": "Dr. Ayo OGUNSAN",
+                "source": "",
+                "category": "inspiration"
+            },
+            {
+                "text": "A goal without a deadline is a dream.",
+                "date": "14/11/2024",
+                "author": "Dr. Ayo OGUNSAN",
+                "source": "",
+                "category": "motivation"
+            },
+            {
+                "text": "To change the world, you must first be changed.",
+                "date": "14/11/2024",
+                "author": "Dr. Ayo OGUNSAN",
+                "source": "",
+                "category": "personal"
+            },
+            {
+                "text": "when we don't cringe at sin, and are even unsure if there are absolute moral standards. Then there is a problem",
+                "date": "14/11/2024",
+                "author": "Dr. Ayo OGUNSAN",
+                "source": "",
+                "category": "faith"
+            },
+            {
+                "text": "when our consciences don't catch fire for principle and just causes. \n\nwhen the Word of God is replaced by human opinion, tradition, culture, or feelings. \n\nwhen entertainment is substituted for true worship",
+                "date": "14/11/2024",
+                "author": "Dr. Ayo OGUNSAN",
+                "source": "",
+                "category": "faith"
+            },
+            {
+                "text": "There are too many Obadiahs in the church. We need more Elijahs.",
+                "date": "14/11/2024",
+                "author": "Dr. Ayo OGUNSAN",
+                "source": "",
+                "category": "leadership"
+            },
+            {
+                "text": "Don't take yourself too seriously; take the Lord seriously.",
+                "date": "14/11/2024",
+                "author": "Dr. Ayo OGUNSAN",
+                "source": "",
+                "category": "faith"
+            }
+        ]
+    ;
 
     const videoContent = [
         {

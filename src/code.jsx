@@ -619,7 +619,7 @@ const MobileApp = () => {
         {
             id: 1,
             title: "Are you a kingdom ambassador or a comfortable negotiator?",
-            thumbnail: "https://media.licdn.com/dms/image/v2/D4D05AQGVK0bGVr2reg/feedshare-thumbnail_720_1280/feedshare-thumbnail_720_1280/0/1702536301527?e=1736582400&v=beta&t=QO3PLrSowPGGYmvDJpWvvZKM68sQegySC3nzayMdwoQ",
+            thumbnail: "https://images.unsplash.com/photo-1504052434569-70ad5836ab65?auto=format&fit=crop&w=320&h=180",
             src: "https://www.youtube.com/watch?v=jxnWX7kqYGE",
             duration: "10:25",
             author: "Dr. Ayo Ogunsan",

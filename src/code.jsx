@@ -1290,14 +1290,14 @@ const MobileApp = () => {
                 const category = categories.find(cat => cat.id === video.category) || categories[0];
 
                 return (
-                    <div className="bg-white rounded-xl overflow-hidden shadow-sm border border-gray-100">
+                    <div className="bg-white rounded-xl overflow-hidden shadow-sm border border-gray-100"
+                         onClick={(e) => {
+                             e.preventDefault();
+                             e.stopPropagation();
+                             setSelectedVideo({...video, autoPlay: true});
+                         }}>
                         <div
                             className="relative cursor-pointer group"
-                            onClick={(e) => {
-                                e.preventDefault();
-                                e.stopPropagation();
-                                setSelectedVideo({...video, autoPlay: true});
-                            }}
                         >
                             <img
                                 src={video.thumbnail}
